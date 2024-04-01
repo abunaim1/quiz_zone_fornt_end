@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>quizZone by aabunnaim</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Bootstrap's JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <!-- Note: The "styleN" class below should match that of the banner element. -->
+      <header id="header" class="alt">
+        <a href="index.html" class="logo"><strong>QuizZone</strong> <span>by Abu Naim</span></a>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links" id="forAdmin">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="leaderboard.html">Leaderboard</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+        <ul class="actions stacked" id="xyz"></ul>
+      </nav>
+
+      <!-- Banner -->
+      <!-- Note: The "styleN" class below should match that of the header element. -->
+      <section id="banner" class="style2"></section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one" class="question_category"></section>
+
+        <!-- Two -->
+        <section id="two" class="spotlights">
+          <section>
+            <div
+              class="w-75 m-auto"
+              style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; row-gap: 20px; column-gap: 15px"
+              id="question_paper"
+            ></div>
+          </section>
+          <!-- Button trigger modal -->
+
+          <!-- Modal -->
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark text-light">
+                <div class="modal-header" id="question_modal_head"></div>
+                <div class="modal-body" id="question_modal_body"></div>
+                <div class="modal-footer" id="question_modal_footer"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="two">
+          <div class="inner get_update">
+            <header class="major">
+              <h2>Get Update Yourself</h2>
+            </header>
+            <p>
+              Quiz Zone is a great site for online practice test as we have a vast database of thousands of questions for Public Exam like
+              BCS Exam. Explore the most Questions. Update yourself by taking some quizes. Keep practicing the previous question. Students
+              love quizZone! By the end of the school year nearly all 1400+ of my students could correctly find and name every country in
+              the world on a blank map, something they all took great pride in. They thought quizZone was great fun and had a blast racing
+              to finish a quiz.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner" style="display: flex; justify-content: space-between; align-items: center">
+          <div class="footer-contact">
+            <h3>QUIZZONE</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Level-4, 34, Awal Centre, Banani, Dhaka</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: <a href="">aabunnaim@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i> Helpline : 01322810881 , 01322-901103 <small>(Available : 10AM - 5PM)</small></p>
+          </div>
+          <div class="social-media-links">
+            <h4>Social Media Links</h4>
+            <div style="display: flex; column-gap: 30px">
+              <a href="https://www.facebook.com/aabunnaim/" class="icon brands alt fa-facebook-f"></a>
+              <a href="https://www.instagram.com/aabunnaim/" class="icon brands alt fa-instagram"></a>
+              <a href="https://github.com/abunaim1" class="icon brands alt fa-github"></a>
+              <a href="#" class="icon brands alt fa-linkedin-in"></a>
+            </div>
+            <p style="margin-top: 20px">Download App</p>
+            <a href=""><img style="width: 150px; border-radius: 8px" src="./images/downloadAPP.png" alt="" /></a>
+          </div>
+        </div>
+        <hr />
+        <p style="text-align: center">&copy; All rights reserved to Abu Naim</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="./js/quiz.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
