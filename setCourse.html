@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>quizZone by aabunnaim</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/3b65cadd71.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <a href="index.html" class="logo"><strong>QuizZone</strong> <span>by Abu Naim</span></a>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links" id="forAdmin"></ul>
+        <ul class="actions stacked" id="xyz"></ul>
+      </nav>
+      <!-- Main -->
+      <div id="main">
+        <div class="course-bg"></div>
+        <div class="category-form">
+          <form onsubmit="course(event)">
+            <span class="h1 fw-semibold">Add A New Course</span>
+            <p>Here, you can do add the most important courses</p>
+            <div class="mb-3">
+              <label for="name" class="form-label">The Course</label>
+              <input type="text" class="form-control w-100 mb-3" id="name" required />
+            </div>
+            <div class="mb-3">
+                <label for="details" class="form-label">Detail</label>
+                <input type="text" class="form-control" id="details" rows="3"></input>
+            </div>
+            <div class="mb-3">
+                <label for="hour" class="form-label">Duration</label>
+                <input type="text" class="form-control w-100 mb-3" id="hour" required />
+              </div>
+            <div class="mb-3">
+              <label for="price" class="form-label">Price</label>
+              <input type="number" class="form-control w-100 mb-3" id="price" required />
+            </div>
+            <div class="mb-3">
+                <label for="image" class="form-label">Image</label>
+                <input class="form-control" type="file" id="image">
+              </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner" style="display: flex; justify-content: space-between; align-items: center">
+          <div class="footer-contact">
+            <h3>QUIZZONE</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Level-4, 34, Awal Centre, Banani, Dhaka</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: <a href="">aabunnaim@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i> Helpline : 01322810881 , 01322-901103 <small>(Available : 10AM - 5PM)</small></p>
+          </div>
+          <div class="social-media-links">
+            <h4>Social Media Links</h4>
+            <div style="display: flex; column-gap: 30px">
+              <a href="https://www.facebook.com/aabunnaim/" class="icon brands alt fa-facebook-f"></a>
+              <a href="https://www.instagram.com/aabunnaim/" class="icon brands alt fa-instagram"></a>
+              <a href="https://github.com/abunaim1" class="icon brands alt fa-github"></a>
+              <a href="#" class="icon brands alt fa-linkedin-in"></a>
+            </div>
+            <p style="margin-top: 20px">Download App</p>
+            <a href=""><img style="width: 150px; border-radius: 8px" src="./images/downloadAPP.png" alt="" /></a>
+          </div>
+        </div>
+        <hr />
+        <p style="text-align: center">&copy; All rights reserved to Abu Naim</p>
+      </footer>
+    </div>
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="./js/admin.js"></script>
+    <script src="./js/setCourse.js"></script>
+  </body>
+</html>

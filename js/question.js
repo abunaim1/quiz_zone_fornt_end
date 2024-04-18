@@ -16,7 +16,6 @@ const question = (page) => {
     .then((data) => {
       data.results.forEach((item) => {
         if (item.question_paper_name == question_category) {
-          console.log(item);
           displayQuestionAndAnswer(item);
         } else {
           console.log("HEllo");

@@ -35,6 +35,7 @@ const navMenu = () => {
         <li><a href="index.html">Home</a></li>
         <li><a href="leaderboard.html">Leaderboard</a></li>
         <li><a href="profile.html">Profile</a></li>
+        <li><a href="course.html">Our Courses</a></li>
         <li><a href="aboutUs.html">About Us</a></li>
         <li><a href="admin.html">Admin Panel</a></li>
         <li><a href="contactUs.html">Contact Us</a></li>
