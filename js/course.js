@@ -4,7 +4,6 @@ const courseLoad = () => {
     .then((res) => res.json())
     .then((data) => {
       data.forEach((item) => {
-        console.log(item);
         const div = document.createElement("div");
         div.classList.add("card", "m-2");
         div.style.width = "18rem";
@@ -21,6 +20,7 @@ const courseLoad = () => {
       });
     });
 };
+
 if (window.location.href.endsWith("course.html")) {
   courseLoad();
 }
