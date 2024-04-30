@@ -54,22 +54,22 @@
   border-radius: 4px;
 }
 .home-angor {
-  color: #015481;
+  padding-left: 17px;
+  color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .home-content li {
   list-style: none;
-  padding: 10px;
   width: 100%;
-  background: #f4f2f2;
-  box-shadow: 0 5px 25px rgb(0, 0, 0, .1);
+  background: #2A2F4A;
+  box-shadow: 0 5px 25px rgba(133, 114, 114, 0.1);
   transition: transform 0.5s;
 }
 .home-content li:hover {
   transform: scale(1.1);
   z-index: 100;
-  background: #25bcff;
+  background: #2A2F4A;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
