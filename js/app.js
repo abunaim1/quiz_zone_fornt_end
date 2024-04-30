@@ -7,23 +7,13 @@ const loadQuizCategory = () => {
 const displayData = (data) => {
   const parent = document.getElementById("one");
   data.forEach((item) => {
-    const article = document.createElement("article");
-    article.innerHTML = `
-    <div>
-    <span class="image">
-    <img src="images/pic01.jpg" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="quiz.html?category_slug=${item.category}" target='_blank' class="link">${item.category}</a></h3>
-      <p>${item.description}</p>
-      <p>I think you are on right Place.</p>
-    </header>
-    </div>
+    const div = document.createElement("div")
+    div.innerHTML = `
+    <li style="padding: 10px;" class="p"><a class="home-angor" href="quiz.html?category_slug=${item.category}" target='_blank' class="link">${item.category}</a></li>
     `;
-    parent.appendChild(article);
+    parent.appendChild(div);
   });
 };
-
 const navMenu = () => {
   const parent = document.getElementById("xyz");
   const token = localStorage.getItem("token");
