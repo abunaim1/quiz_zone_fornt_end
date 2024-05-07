@@ -3707,7 +3707,7 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .copyright {
+	/* #footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
@@ -3726,7 +3726,7 @@ input, select, textarea {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
-			}
+			} */
 
 	@media screen and (max-width: 480px) {
 

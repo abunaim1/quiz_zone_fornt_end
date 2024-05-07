@@ -1,0 +1,12 @@
+.alt {
+  position: relative;
+}
+.footer-leader-board {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(33, 31, 31);
+  width: 100%;
+}
+.footer-leader-board p {
+  margin: 0;
+}
