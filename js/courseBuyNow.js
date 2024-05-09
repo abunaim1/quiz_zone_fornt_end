@@ -35,15 +35,21 @@ const pay = () => {
         course_id,
         price,
     };
+
     fetch("https://quiz-zone-backend.onrender.com/payment/pay/", {
         method: "POST",
-        headers: { "content-type": "application/json" },
+        headers: { 
+            "content-type": "application/json",
+        },
         body: JSON.stringify(info),
     })
     .then((res) => res.json())
     .then((data) => {
-        console.log(data);
-        window.location.href = data.GatewayPageURL; // Redirect to SSLCommerz payment page
+        displayCheckOut(data)
     });
 };
 
+const displayCheckOut=(data)=>{
+    console.log(data);
+    window.location.href = data.GatewayPageURL
+}
