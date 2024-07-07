@@ -90,12 +90,17 @@ Start the server
 #### The Question:
 <img width="1680" alt="question" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/54ff3bb0-8ed8-4bdd-b3d2-3421be162e4d">
 
-#### The Admin panel:
-<img width="1678" alt="Screenshot 2024-04-02 at 2 14 18 AM" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/cd3a9342-4258-4ed5-8ede-c81a9fd2c4f2">
-
 #### The Courses:
 <img width="1680" alt="courseBuy" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/2e832f57-dff8-4709-8ab7-04f9fbdaad65">
 
+#### The payment method:
+<img width="1680" alt="payment" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/fd49639c-0c96-4a10-88ec-bc62badc12fd">
+
+#### The Admin panel:
+<img width="1678" alt="admin-panel" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/cd3a9342-4258-4ed5-8ede-c81a9fd2c4f2">
+
+#### Course Adding Feature:
+<img width="1679" alt="courses" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/896a0456-27f7-4de7-b2b5-f7600b0fd87c">
 
 
 ## FAQ
