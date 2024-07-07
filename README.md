@@ -5,7 +5,7 @@
 Students will be prepared for themselves for their upcoming exam like University admission, BCS. Everyone can make an account with their email varification. After participating in an exam they will get their marks with their email. Also they can see a leaderboard according to their marks. Moreover anyone can do any courses with their accounts. 
 
 ## Admin User
-An admin can add question set, questions, answer option, courses. An admin can also need be varified by a super admin. 
+An admin can add question set category, questions, answer option, courses. An admin can also need be varified by a super admin. 
 
 ## API Reference
 
