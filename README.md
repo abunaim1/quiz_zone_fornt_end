@@ -94,8 +94,8 @@ Start the server
 <img width="1678" alt="Screenshot 2024-04-02 at 2 14 18 AM" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/cd3a9342-4258-4ed5-8ede-c81a9fd2c4f2">
 
 #### The Courses:
+<img width="1680" alt="courseBuy" src="https://github.com/abunaim1/quiz_zone_fornt_end/assets/124233439/2e832f57-dff8-4709-8ab7-04f9fbdaad65">
 
-#### The Payment:
 
 
 ## FAQ
